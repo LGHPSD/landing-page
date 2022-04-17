@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding:  50px;
+
+    
+}
+
+.hero-main {
+    width: 500px;
+    font-size: 48px;
+    font-weight: bolder;
+    color:  #f9faf8;
+}
+
+.sub-awesome {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-aw {
+    width: 500px;
+}
+
+.random {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.random-box {
+    display: flex;
+}
+
+.inspiring {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+button {
+    color: #3882f6;
+}
+
+.action-call {
+    display: flex;
+    background-color: #3882f6;
+
+}
+
+.footer {
+    display: flex;
+}
