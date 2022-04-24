@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header-card {
+.header-card , footer {
     background-color: #1f2937;
     justify-content: center;
     padding-bottom: 50px;
@@ -16,8 +16,8 @@
 }
 
 .logo {
-    color: #f9faf8;
-    font-size: 24px;
+    max-height: 80%;
+    border-radius: 15px;
 }
 
 .links {
@@ -25,7 +25,13 @@
     gap: 10px;
     color: #e5e7eb;
     font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
 
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .card {
@@ -55,6 +61,8 @@
 .sub-awesome {
     color: #e5e7eb;
     font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 button {
@@ -63,9 +71,19 @@ button {
     border-radius: 6px;
     width: 120px;
     height: 35px;
-  
 }
 
+
+img {
+    height: 100%;
+    width:100%;
+
+}
+
+.card-right {
+    height: 60%;
+    width: 450px;
+}
 
 .random {
     display: flex;
@@ -150,3 +168,9 @@ button {
     .second {
         border: 2px solid white
     }
+
+footer {
+    text-align: center;
+    color: #e5e7eb;
+    padding: 40px;
+}
